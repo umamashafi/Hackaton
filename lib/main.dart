@@ -1,10 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:myapp/Screen/Registration.dart';
-import 'package:myapp/Screen/Splash.dart';
-import 'package:myapp/Screen/home_Screen.dart';
-import 'package:myapp/Screen/menu.dart';
-import 'package:myapp/Screen/order_Screen.dart';
+import 'package:myapp/View/Splash.dart';
+import 'package:myapp/View/home_Screen.dart';
+
 import 'package:myapp/firebase_options.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,10 +16,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Hackaton Project',
+    return  MaterialApp(
       home: SplashScreenPage(),
-       debugShowCheckedModeBanner: false,
     );
   }
 }

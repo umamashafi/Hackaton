@@ -41,6 +41,16 @@ dependencies:
   firebase_auth: ^4.2.5
   cloud_firestore: ^4.3.1
   flutter_native_splash: ^2.2.17
+  stacked: ^3.1.1
+  google_maps_flutter: ^2.2.5
+  location_picker_flutter_map: ^1.1.5
+  location: ^4.4.0
+  dio_cookie_manager: ^2.1.1
+  google_static_maps_controller: ^1.0.0
+  geocoding: ^2.0.5
+  json_serializable: ^6.6.1
+  flutter_phone_direct_caller: ^2.1.1
+  url_launcher: ^6.1.10
 
 dev_dependencies:
   flutter_test:

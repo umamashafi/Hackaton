@@ -25,9 +25,11 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+apply pluging 'AIzaSyCzSbUjCHJDCgB8F3tAZ406i7h81QhXn4I'
 
 android {
-    compileSdkVersion flutter.compileSdkVersion
+    compileSdkVersion 30
+     //flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -45,11 +47,13 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.myapp"
+        applicationId "com.example.google_maps_in_flutter"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
+        minSdkVersion 21
+         //flutter.minSdkVersion
+        targetSdkVersion 30 
+        //flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
@@ -70,4 +74,5 @@ flutter {
 dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //implementation 'AIzaSyCzSbUjCHJDCgB8F3tAZ406i7h81QhXn4I'
 }
